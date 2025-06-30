@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a full-stack employee management system built with modern web technologies. The application provides a secure, admin-only interface for managing employee records with comprehensive CRUD operations, search functionality, and professional UI components.
+This is a full-stack employee management system built with modern web technologies. The application provides a secure, admin-only interface for managing employee records with comprehensive CRUD operations, search functionality, and professional UI components. The system has been converted to use local authentication instead of external OIDC for easy local development and deployment.
 
 ## System Architecture
 
@@ -17,13 +17,14 @@ This is a full-stack employee management system built with modern web technologi
 ### Backend Architecture
 - **Express.js** server with TypeScript for API endpoints
 - **Drizzle ORM** with PostgreSQL dialect for type-safe database operations
-- **Neon Database** serverless PostgreSQL for cloud-native data storage
+- **PostgreSQL** database for data storage and session management
 - **Session-based authentication** using connect-pg-simple for PostgreSQL session storage
 
 ### Authentication System
-- **Replit OpenID Connect (OIDC)** integration for secure admin authentication
-- **Passport.js** with OpenID Connect strategy for authentication middleware
-- Session management with PostgreSQL-backed storage for scalability
+- **Local authentication** with email/password login and registration
+- **bcryptjs** for secure password hashing
+- **Session management** with PostgreSQL-backed storage for scalability
+- **Multi-administrator support** allowing registration of multiple admin accounts
 - Admin-only access pattern with automatic redirects for unauthorized users
 
 ## Key Components
@@ -90,6 +91,9 @@ This is a full-stack employee management system built with modern web technologi
 ## Changelog
 ```
 Changelog:
+- June 30, 2025. Converted from Replit OIDC to local authentication system
+- June 30, 2025. Added multi-administrator registration and login
+- June 30, 2025. Created comprehensive local setup documentation
 - June 30, 2025. Initial setup
 ```
 
