@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a full-stack employee management system built with modern web technologies. The application provides a secure, admin-only interface for managing employee records with comprehensive CRUD operations, search functionality, and professional UI components. The system has been converted to use local authentication instead of external OIDC for easy local development and deployment.
+This is a full-stack employee management system built with modern web technologies. The application provides a secure, admin-only interface for managing employee records with comprehensive CRUD operations, search functionality, and professional UI components.
 
 ## System Architecture
 
