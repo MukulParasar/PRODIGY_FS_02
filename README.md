@@ -91,7 +91,6 @@ This is a full-stack employee management system built with modern web technologi
 ## Changelog
 ```
 Changelog:
-- June 30, 2025. Converted from Replit OIDC to local authentication system
 - June 30, 2025. Added multi-administrator registration and login
 - June 30, 2025. Created comprehensive local setup documentation
 - June 30, 2025. Initial setup
