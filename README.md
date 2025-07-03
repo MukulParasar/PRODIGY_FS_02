@@ -72,7 +72,6 @@ This is a full-stack employee management system built with modern web technologi
 ## Deployment Strategy
 
 ### Development Environment
-- **Replit-optimized setup** with cartographer plugin for enhanced development experience
 - **Vite development server** with hot module replacement for rapid iteration
 - **TypeScript compilation** with strict type checking enabled
 - **Environment variable management** for database connections and authentication secrets
